@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "pictureId": "https://unsplash.com/photos/text-mIqyYpSNq3o",
+    "name": "discount 50%",
+    "NameToko": "Sate Haji Sam",
+    "alamat": "Jl. Gatot Subroto No. 54",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "id": "2",
+    "pictureId": "https://unsplash.com/photos/text-lpGm415q9JA",
+    "name": "discount Black Friday",
+    "NameToko": "Soto Tangkar",
+    "alamat": "Jl. Gatot Subroto No. 54",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "id": "3",
+    "pictureId": "https://unsplash.com/photos/weekend-sale-signage-5UJbKYUjFCk",
+    "name": "discount akhir tahun",
+    "NameToko": "Nasi Goreng Pondok Indah",
+    "alamat": "Jl. Gatot Subroto No. 54",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  },
+  {
+    "id": "4",
+    "pictureId": "https://unsplash.com/photos/save-up-to-50-black-friday-clip-art-sUlR4Iul-9c",
+    "name": "discount hut luru",
+    "NameToko": "Ramen Katsu",
+    "alamat": "Jl. Gatot Subroto No. 54",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+  }
+]

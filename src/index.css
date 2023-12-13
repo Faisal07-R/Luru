@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+.hero {
+  position: relative;
+}
+.hero-image {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.hero-image img {
+  width: 100%;
+  height: 690px;
+  position: relative;
+  object-fit: cover;
+}
+.hero input {
+  /* Lebar input */
+  width: 200px;
+  /* Pusatkan input secara horizontal */
+  margin: 0 auto;
+  /* Menambahkan ruang di atas input */
+  margin-top: 10px;
+  /* Memberikan border radius 20px */
+  border-radius: 20px;
+}
+.hero-text h1 {
+  font-size: 4rem;
+}
+.hero-text p {
+  margin-bottom: 5px;
+  text-align: justify;
+}
+.hero-text p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(88, 88, 88);
+}
+.hero-text input{
+  padding-left: 40px;
+}
+.hero-text .search-bar {
+  width: 70%;
+  height: 50px;
+  background: #DDD9DB; 
+  border-radius: 20px"
+  box-sizing border-box;
+  border: none;
+  outline: none;
+  
+}
+
+.hero-text {
+  width: 100%;
+  flex-direction: column;
+  position: absolute; /* Set position to absolute */
+  top: 35%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for centering */
+  padding: 10px 15px;
+  box-sizing: border-box; /* Include padding in width and height */
+  text-align: center; /* Center text */
+}
+
+.discount-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.discount-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.discount-list img {
+  width: 280px;
+  height: 180px;
+  border-radius: 20px;
+  background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+  box-shadow: 1px 4px 5.300000190734863px rgba(0, 0, 0, 0.16);
+  margin: 20px;
+}
+.discount-title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-item {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.recomendation-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recomendation-list > div {
+  width: 280px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 1px 4px 5.300000190734863px rgba(0, 0, 0, 0.16);
+}
+
+.recomendation-list img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.recomendation-list div h4,
+.recomendation-list div p {
+  margin: 10px;
+}
+.alamat-text {
+  font-size: 0.8rem;
+}
+.description-text {
+  overflow: hidden;
+  font-size: 0.8rem;
+  color: #5e5d5d;
+  text-overflow: ellipsis; /* Jika deskripsi terlalu panjang, gunakan ellipsis */
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Batasi deskripsi menjadi 2 baris */
+  -webkit-box-orient: vertical;
+}
+.recomendation-title {
+  margin-bottom: 20px;
+}
+.Link {
+  text-decoration: none; /* Menghilangkan garis bawah */
+  color: black; /* Mengubah warna teks menjadi hitam */
+}
+.merchant {
+  width: 100%;
+  height: 690px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.merchant-image {
+  width: 200px; /* Ubah ukuran sesuai kebutuhan */
+  height: 200px; /* Ubah ukuran sesuai kebutuhan */
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.merchant-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Untuk memastikan gambar terlihat proporsional */
+}
