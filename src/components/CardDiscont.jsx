@@ -1,5 +1,7 @@
 import post from "../post.json";
+import "./carddiscount.css";
 import DiscountJpg from "../assets/discount.jpg";
+import { Link } from "react-router-dom";
 export default function Discount() {
   return (
     <>

@@ -1,5 +1,5 @@
 import Discount from "../components/CardDiscont";
-import Recomendation from "../components/CardRecomendasi";
+import RecomendationMenu from "../components/Cardmenu";
 import post from "../post.json";
 import satai from "../assets/satai.jpg";
 
@@ -11,8 +11,8 @@ export default function MerchantDetail() {
           <img src={satai} alt="Jumbtron" />
         </div>
         <div className="merchant-text">
-          <h1>{post.NameToko}</h1>
-          <p>{post.alamat}</p>
+          <h1>{post[0].NameToko}</h1>
+          <p>{post[0].alamat}</p>
         </div>
       </section>
       <section>
@@ -24,7 +24,7 @@ export default function MerchantDetail() {
       <section>
         <div className="card-item">
           <h2 className="recomendation-title">Rekomendasi</h2>
-          <Recomendation />
+          <RecomendationMenu />
         </div>
       </section>
     </>

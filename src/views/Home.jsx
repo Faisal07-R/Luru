@@ -2,6 +2,7 @@ import { useState } from "react";
 import Discount from "../components/CardDiscont";
 import Recomendation from "../components/CardRecomendasi";
 import SearchBar from "../components/SearchBar";
+import "./home.css";
 import Hero from "../assets/hero.jpg";
 
 export default function Home() {
