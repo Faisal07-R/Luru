@@ -1,34 +1,138 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "pictureId": "https://images.unsplash.com/photo-1561626423-a51b45aef0a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2F0ZXxlbnwwfHwwfHx8MA%3D%3D",
     "name": "discount 50%",
     "NameToko": "Sate Haji Sam",
     "alamat": "Jl. Gatot Subroto No. 54",
-    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Menu": [
+      {
+        "id": 1,
+        "pictureMenu": "https://images.unsplash.com/photo-1620088676099-c709b5838922?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2F0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Title": "Sate Maranggi",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 2,
+        "pictureMenu": "https://images.unsplash.com/photo-1634871572365-8bc444e6faea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2F0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Title": "Sate Sapi",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 3,
+        "pictureMenu": "https://images.unsplash.com/photo-1561626423-a51b45aef0a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2F0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Title": "Sate Ayam",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 4,
+        "pictureMenu": "https://images.unsplash.com/photo-1620088694138-0475bc8fef83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2F0ZXxlbnwwfHwwfHx8MA%3D%3D",
+        "Title": "Sate Pedas Asin",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
   },
   {
-    "id": "2",
+    "id": 2,
     "pictureId": "https://images.unsplash.com/photo-1572656631137-7935297eff55?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c290b3xlbnwwfHwwfHx8MA%3D%3D",
     "name": "discount Black Friday",
     "NameToko": "Soto Tangkar",
-    "alamat": "Jl. Gatot Subroto No. 54",
-    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    "alamat": "Jl. Ki Pati Waringin No. 554",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Menu": [
+      {
+        "id": 1,
+        "pictureMenu": "https://images.unsplash.com/photo-1572656306390-40a9fc3899f7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c290b3xlbnwwfHwwfHx8MA%3D%3D",
+        "Title": "Soto Medan",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 2,
+        "pictureMenu": "https://media.istockphoto.com/id/666553194/id/foto/sup-mie-dengan-ayam-seledri-dan-telur-dalam-mangkuk-dengan-latar-belakang-kayu-tua.jpg?s=612x612&w=0&k=20&c=srKeqbwqtKZM6IjbEb6S0zlMkhfVPpBdDqRDsOkClV4=",
+        "Title": "Soto Lamongan",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 3,
+        "pictureMenu": "https://media.istockphoto.com/id/1353388535/id/foto/sup-mie-ayam-soto-ayam-indonesia-dalam-kaldu-pedas-dari-dekat-di-piring-horisontal.jpg?s=612x612&w=0&k=20&c=rrORY_IcBi_aV9XaYBzSIBoYaG7bfpgSIqDW5KXPoXU=",
+        "Title": "Soto Ayam",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 4,
+        "pictureMenu": "https://images.tokopedia.net/img/KRMmCm/2023/6/26/57f2c870-4520-4ee8-8bc9-e1123220e224.jpg",
+        "Title": "Soto Daging",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
   },
   {
-    "id": "3",
+    "id": 3,
     "pictureId": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJpZWQlMjByaWNlfGVufDB8fDB8fHww",
     "name": "discount akhir tahun",
     "NameToko": "Nasi Goreng Pondok Indah",
-    "alamat": "Jl. Gatot Subroto No. 54",
-    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    "alamat": "Jl. Suranjala No. 04",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Menu": [
+      {
+        "id": 1,
+        "pictureMenu": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJpZWQlMjByaWNlfGVufDB8MHwwfHx8MA%3D%3D",
+        "Title": "Nasi Goreng Seafood",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 2,
+        "pictureMenu": "https://asset.kompas.com/crops/MrdYDsxogO0J3wGkWCaGLn2RHVc=/84x60:882x592/750x500/data/photo/2021/11/17/61949959e07d3.jpg",
+        "Title": "Nasi Goreng Gila",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 3,
+        "pictureMenu": "https://asset.kompas.com/crops/N0sk4nA9PHwFZWLQmKOgXOzmWLo=/4x0:1000x664/750x500/data/photo/2022/05/04/627208b727a09.jpg",
+        "Title": "Nasi Goreng Ayam",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 4,
+        "pictureMenu": "https://media.istockphoto.com/id/940039360/id/foto/nasi-goreng-cina.jpg?s=612x612&w=0&k=20&c=iSZQY_x9eDKetEpCVvk-N788A4Qcu6pligXbHBb7ikQ=",
+        "Title": "Nasi Goreng Spesial",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
   },
   {
-    "id": "4",
+    "id": 4,
     "pictureId": "https://images.unsplash.com/photo-1623341214825-9f4f963727da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmFtZW58ZW58MHx8MHx8fDA%3D",
     "name": "discount hut luru",
     "NameToko": "Ramen Katsu",
-    "alamat": "Jl. Gatot Subroto No. 54",
-    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+    "alamat": "Jl. Ki Ageng Tepak No. 56",
+    "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Menu": [
+      {
+        "id": 1,
+        "pictureMenu": "https://images.unsplash.com/photo-1632440722549-692fc6af969e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmFtZW58ZW58MHwwfDB8fHww",
+        "Title": "Ramen Soyu",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 2,
+        "pictureMenu": "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHJhbWVufGVufDB8MHwwfHx8MA%3D%3D",
+        "Title": "Ramen Creamy",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 3,
+        "pictureMenu": "https://images.unsplash.com/photo-1637024698421-533d83c7b883?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJhbWVufGVufDB8MHwwfHx8MA%3D%3D",
+        "Title": "Spicy Ramen",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      },
+      {
+        "id": 4,
+        "pictureMenu": "https://images.unsplash.com/photo-1591814468924-caf88d1232e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFtZW58ZW58MHwwfDB8fHww",
+        "Title": "Dry Ramen",
+        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+      }
+    ]
   }
 ]

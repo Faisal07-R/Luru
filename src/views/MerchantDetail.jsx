@@ -1,18 +1,28 @@
+import React from "react";
 import Discount from "../components/CardDiscont";
 import RecomendationMenu from "../components/Cardmenu";
 import post from "../post.json";
-import satai from "../assets/satai.jpg";
+
+import { useParams } from "react-router-dom";
 
 export default function MerchantDetail() {
+  const { id } = useParams();
+  const parsedId = parseInt(id); //
+  const selectedPost = post.find((item) => item.id === parsedId);
+
+  if (!selectedPost) {
+    return <div>Tidak ada data toko</div>;
+  }
+  const menuItems = selectedPost.Menu;
   return (
     <>
       <section className="merchant">
         <div className="merchant-image">
-          <img src={satai} alt="Jumbtron" />
+          <img src={selectedPost.pictureId} alt="Jumbotron" />
         </div>
         <div className="merchant-text">
-          <h1>{post[0].NameToko}</h1>
-          <p>{post[0].alamat}</p>
+          <h1>{selectedPost.NameToko}</h1>
+          <p>{selectedPost.alamat}</p>
         </div>
       </section>
       <section>
@@ -23,8 +33,8 @@ export default function MerchantDetail() {
       </section>
       <section>
         <div className="card-item">
-          <h2 className="recomendation-title">Rekomendasi</h2>
-          <RecomendationMenu />
+          <h2 className="recommendation-title">Rekomendasi</h2>
+          <RecomendationMenu menuItems={menuItems} />
         </div>
       </section>
     </>

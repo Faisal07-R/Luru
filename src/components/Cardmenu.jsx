@@ -1,16 +1,19 @@
+import React from "react";
 import post from "../post.json";
-import satai from "../assets/satai.jpg";
+import { Link } from "react-router-dom";
+import "./cardrecomendation.css";
 
-export default function RecomendationMenu() {
+export default function RecomendationMenu({ menuItems }) {
   return (
     <>
       <div className="recomendation-list">
-        {post.map((rekomen) => (
-          <div key={rekomen.id}>
-            <img src={satai} alt={rekomen.name} />
-            <h4>{rekomen.NameToko}</h4>
-            <p className="alamat-text">{rekomen.alamat}</p>
-            <p className="description-text">{rekomen.Description}</p>
+        {menuItems.map((menu, index) => (
+          <div key={index}>
+            <img src={menu.pictureMenu} alt={menu.Title} />
+            <Link to={`/productdetail/${menu.id}`}>
+              <h4 className="Link">{menu.Title}</h4>
+            </Link>
+            <p className="description-text">{menu.Description}</p>
           </div>
         ))}
       </div>
